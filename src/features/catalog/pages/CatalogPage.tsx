@@ -6,7 +6,6 @@ import { applyFilters, defaultFilterState, paginate, sortProducts } from '@/lib/
 import { filtersToQuery, queryToFilters } from '@/lib/query';
 import { useCatalogStore } from '@/features/catalog/catalog.store';
 import { ProductCard } from '../components/ProductCard';
-import { FiltersPanel } from '../components/FiltersPanel';
 import { FiltersDrawer } from '../components/FiltersDrawer';
 import { SortMenu } from '../components/SortMenu';
 import { Pagination } from '@/components/ui/Pagination';
